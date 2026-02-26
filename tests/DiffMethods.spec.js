@@ -7,4 +7,5 @@ test('@Webst Client App login', async ({ page }) => {
     await diffMethodsTests.addToCart();
     await diffMethodsTests.goToCart();
     await diffMethodsTests.checkout();
+    // await page.pause();
 });
